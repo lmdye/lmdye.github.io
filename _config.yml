@@ -8,12 +8,12 @@ url: "https://lmdye.github.io"
 
 # Author Settings
 author: Lindsey Dye
-author-img: "/assets/img/15-retouch.jpg"
+author-img: 15-retouch.jpg
 about-author: I am a data analyst passionate about sustainability, visualization, and storytelling with data.
 
 # Social Links
 social-github: lmdye 
-social-linkedin: in/lindsey-dye
+social-linkedin: lindsey-dye
 social-email: dyel@umich.edu 
 
 # Remove Disqus if not using
