@@ -1,26 +1,25 @@
 title: "Hello, world! I'm Lindsey Dye"
-description: > 
-  Data Analyst | Sustainability Enthusiast
-  
-permalink: ':title/'
-baseurl: "" 
-url: "https://lmdye.github.io" 
+description: Data Analyst | Sustainability Enthusiast 
+permalink: ':title/'   # The structure for how your posts are linked, use this for custom URLs
+baseurl: "/lmdye.github.io"  # The subpath for your site, e.g. /portfolio or /blog (use empty string if no subfolder)
+url: "https://lmdye.github.io"  # Base URL for your site, replace with your actual URL
 
 # Author Settings
-author: Lindsey Dye
-author-img: 15-retouch.jpg
-about-author: I am a data analyst passionate about sustainability, visualization, and storytelling with data.
+author: Lindsey Dye  # Your name
+author-img: 15-retouch.jpg # add your photo
+about-author: I am a data analyst passionate about sustainability, visualization, and storytelling with data. # add description
 
-# Social Links
-social-github: lmdye 
-social-linkedin: lindsey-dye
-social-email: dyel@umich.edu 
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: lmdye # add your Github handle
+social-linkedin: lindsey-dye # add your Linkedin handle
+social-email: dyel@umich.edu # add your Email address
 
-# Remove Disqus if not using
-# discus-identifier: 
+# Disqus
+discus-identifier:  # add your discus identifier
 
 # Tracker
-analytics: # Add your Google Analytics ID if needed
+analytics: # Google Analytics
 
 # Build Settings
 markdown: kramdown
@@ -29,10 +28,6 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 paginate: 8
 paginate_path: "/page/:num"
 
