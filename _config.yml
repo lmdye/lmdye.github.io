@@ -1,25 +1,30 @@
 title: "Hello, world! I'm Lindsey Dye"
-description: Data Analyst | Sustainability Enthusiast 
-permalink: ':title/'   # The structure for how your posts are linked, use this for custom URLs
-baseurl: "/lmdye.github.io"  # The subpath for your site, e.g. /portfolio or /blog (use empty string if no subfolder)
-url: "https://lmdye.github.io"  # Base URL for your site, replace with your actual URL
+description: > 
+  Data Analyst | Sustainability Enthusiast  
+  I explore the intersection of data, the environment, and storytelling.
+
+permalink: ':title/'  # Controls how post URLs are generated
+
+baseurl: ""  # Leave this empty if you're deploying to https://lmdye.github.io (i.e., not a project page)
+url: "https://lmdye.github.io"  # Your full GitHub Pages URL
 
 # Author Settings
-author: Lindsey Dye  # Your name
-author-img: 15-retouch.jpg # add your photo
-about-author: I am a data analyst passionate about sustainability, visualization, and storytelling with data. # add description
+author: Lindsey Dye
+author-img: 15-retouch.jpg  # Make sure this image is in assets/img/
+about-author: I am a data analyst passionate about sustainability, visualization, and storytelling with data.
 
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: lmdye # add your Github handle
-social-linkedin: lindsey-dye # add your Linkedin handle
-social-email: dyel@umich.edu # add your Email address
+# Social Media Handles (optional ones can be left blank or deleted)
+social-twitter:       # add your Twitter handle (optional)
+social-facebook:      # add your Facebook handle (optional)
+social-github: lmdye
+social-linkedin: lindsey-dye
+social-email: dyel@umich.edu
 
-# Disqus
-discus-identifier:  # add your discus identifier
+# Disqus (optional)
+discus-identifier:    # your Disqus shortname, if using comments
 
-# Tracker
-analytics: # Google Analytics
+# Google Analytics (optional)
+analytics:            # your Google Analytics Tracking ID
 
 # Build Settings
 markdown: kramdown
@@ -31,4 +36,8 @@ plugins:
 paginate: 8
 paginate_path: "/page/:num"
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - yarn.lock
