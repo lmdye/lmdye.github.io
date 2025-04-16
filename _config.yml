@@ -6,7 +6,6 @@ description: >
 permalink: ':title/'  # Controls how post URLs are generated
 
 baseurl: ""  # Leave this empty if you're deploying to https://lmdye.github.io (i.e., not a project page)
-url: "https://lmdye.github.io"  # Your full GitHub Pages URL
 
 # Author Settings
 author: Lindsey Dye
